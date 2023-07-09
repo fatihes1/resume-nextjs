@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "GitHub",
+    "image": "github",
+    "url": "https://github.com/fatihes1"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "image": "linkedin",
+    "url": "https://www.linkedin.com/in/fatihes/"
+  },
+  {
+    "id": 3,
+    "name": "Instagram",
+    "image": "instagram",
+    "url": "https://www.instagram.com/fatichjr/"
+  },
+  {
+    "id": 4,
+    "name": "Medium",
+    "image": "medium",
+    "url": "https://fatihes.medium.com/"
+  },
+  {
+    "id": 5,
+    "name": "@fatihtect",
+    "image": "instagram",
+    "url": "https://www.instagram.com/fatihtech/"
+  },
+  {
+    "id": 6,
+    "name": "YouTube",
+    "image": "youtube",
+    "url": "https://www.youtube.com/channel/UCpMnisdqsNAGzJfQBkBaOKg"
+  },
+  {
+    "id": 7,
+    "name": "Twitter",
+    "image": "twitter",
+    "url": "https://twitter.com/fatichDev"
+  },
+  {
+    "id": 8,
+    "name": "Reddit",
+    "image": "reddit",
+    "url": "https://www.reddit.com/user/Fatihes"
+  }
+]

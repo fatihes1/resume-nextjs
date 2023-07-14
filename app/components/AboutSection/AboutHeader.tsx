@@ -88,7 +88,7 @@ const AboutHeader = () => {
                         >
                             For More Read My
 
-                            <pre className="inline font-bold">'Who Am I'</pre>
+                            <pre className="inline font-bold">&apos;Who Am I&apos;</pre>
                             Blog Post
                         </a>
                     </div>

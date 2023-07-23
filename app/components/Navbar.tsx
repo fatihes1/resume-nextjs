@@ -1,7 +1,11 @@
+'use client';
 import Link from "next/link"
 import Logo from '../../public/assets/images/es.png'
 import Image from "next/image";
+import React, {useState} from "react";
+import {Drawer} from "antd";
 const Navbar = () => {
+    const [showDrawer, setShowDrawer] = useState(false);
     return (
         <>
             <div
@@ -43,12 +47,11 @@ const Navbar = () => {
                 <div className="drawer-content">
 
                     <div
-                        className="fixed-top flex mb-80 flex-row items-center justify-between px-4 pt-2 bg-brand_background dark:bg-dark_background"
+                        className="fixed-top flex flex-row items-center justify-between px-4 pt-2 bg-brand_background dark:bg-dark_background"
                     >
                         <label className="swap swap-rotate p-2 rounded-md">
 
                             <input type="checkbox" />
-
 
                             <svg
                                 className="swap-off dark:fill-gray-200 fill-current w-10 h-10"
@@ -83,8 +86,7 @@ const Navbar = () => {
                             />
                         </Link>
 
-                        <label htmlFor="my-drawer-4" className="btn btn-circle swap swap-rotate">
-
+                        <label onClick={() => setShowDrawer(true)} htmlFor="my-drawer-4" className="btn btn-circle swap swap-rotate">
                             <svg
                                 className="swap-off fill-current"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -109,44 +111,40 @@ const Navbar = () => {
                                 />
                             </svg>
                         </label>
+                        {
+                            showDrawer && (
+                                // eslint-disable-next-line react/jsx-no-undef
+                                <Drawer  placement="right" onClose={() => setShowDrawer(false)} open={showDrawer}>
+                                    <ul
+                                        className="flex flex-col gap-y-5 text-2xl text-gray-700 dark:text-gray-200 items-center"
+                                    >
+                                        <li className="focus:bg-slate-50">
+                                            <Link onClick={() => setShowDrawer(false)} href="/">Home</Link>
+                                        </li>
+                                        <li>
+                                            <Link onClick={() => setShowDrawer(false)} href="/about"
+                                            >About Me</Link
+                                            >
+                                        </li>
+                                        <li>
+                                            <Link onClick={() => setShowDrawer(false)} href="/skills"
+                                            >Skills</Link
+                                            >
+                                        </li>
+                                        <li>
+                                            <Link onClick={() => setShowDrawer(false)} href="/contact"
+                                            >Contact & Follow Me</Link
+                                            >
+                                        </li>
+                                        <li className="text-sm -mt-4">Created by Fatih ES © 2022</li>
+
+                                    </ul>
+                                </Drawer>
+                            )
+                        }
                     </div>
                 </div>
 
-                <div className="drawer-side">
-                    <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
-                    <ul
-                        className="menu p-4 overflow-y-auto w-80 text-base-content bg-brand_background dark:bg-dark_background pt-20"
-                    >
-
-                        <ul
-                            className="flex flex-col gap-y-5 text-2xl text-gray-700 dark:text-gray-200 items-center"
-                        >
-                            <li>
-                                <label htmlFor="my-drawer-4" id="closeDraverButton"> X </label>
-                            </li>
-                            <li className="focus:bg-slate-50">
-                                <Link href="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link href="/about"
-                                >About Me</Link
-                                >
-                            </li>
-                            <li>
-                                <Link href="/skills"
-                                >Skills</Link
-                                >
-                            </li>
-                            <li>
-                                <Link href="/contact"
-                                >Contact & Follow Me</Link
-                                >
-                            </li>
-                            <li className="text-sm -mt-4">Created by Fatih ES © 2022</li>
-
-                        </ul>
-                    </ul>
-                </div>
             </div>
         </>
     )

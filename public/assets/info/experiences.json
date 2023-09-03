@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "company_image": "moneo.png",
+    "company_name": "Moneo A.Ş.",
+    "company_location": "Istanbul, Turkey",
+    "role": "Software Developer",
+    "role_detail": "Full Time",
+    "start_date": "Mar 2023",
+    "end_date": "Present"
+  },
+  {
+    "id": 2,
+    "company_image": "nette.jpeg",
+    "company_name": "Nette Interactive",
+    "company_location": "Bursa, Turkey",
+    "role": "Software Developer",
+    "role_detail": "Full Time",
+    "start_date": "Oct 2022",
+    "end_date": "Jan 2023"
+  },
+  {
+    "id": 3,
+    "company_image": "jotform.png",
+    "company_name": "JotForm",
+    "role": "Full Stack Web Developer",
+    "company_location": "Ankara, Turkey",
+    "role_detail": "Intern",
+    "start_date": "Jul 2022",
+    "end_date": "Auh 2022"
+  },
+  {
+    "id": 4,
+    "company_image": "tubitak.png",
+    "company_name": "TUBITAK",
+    "role": "Software Developer",
+    "company_location": "Ankara, Turkey",
+    "role_detail": "Scholarship",
+    "start_date": "Oct 2011",
+    "end_date": "Jul 2022"
+  },
+  {
+    "id": 5,
+    "company_image": "karegen.jpeg",
+    "company_name": "Karagen.com",
+    "role": "Full Stack Web Developer",
+    "company_location": "Bursa, Turkey",
+    "role_detail": "Intern",
+    "start_date": "Jun 2021",
+    "end_date": "Aug 2011"
+  },
+  {
+    "id": 6,
+    "company_image": "mtm.png",
+    "company_name": "Meet the Music",
+    "role": "Data Science",
+    "company_location": "Izmir, Turkey",
+    "role_detail": "Intern",
+    "start_date": "May 2021",
+    "end_date": "Aug 2021"
+  }
+]

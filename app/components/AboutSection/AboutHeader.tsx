@@ -121,7 +121,7 @@ const AboutHeader = () => {
                         className="w-full lg:w-1/12 flex flex-col justify-center mt-0 mx-10 lg:mx-0 lg:mt-10"
                     >
           <span
-              className="w-10 h-10 border-4 border-brand_orange rounded-full grid place-items-center relative mb-4 animate-spin-slow"
+              className="w-10 h-10 border-4 border-brand_orange  rounded-full grid place-items-center relative mb-4 animate-spin-slow"
           >
             <span
                 className="absolute -bottom-10 -left-10 w-14 h-14 bg-brand_orange scale-115 rounded-full -z-1 bg-opacity-25 dark:bg-opacity-100"

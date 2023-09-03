@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div>
             <div
-                className="lg:calc-h-full-20 overflow-y-auto overflow-x-hidden lg:overflow-hidden mb-8 lg:mb-0 md:mt-14"
+                className="lg:calc-h-full-20 h-screen overflow-y-auto overflow-x-hidden lg:overflow-hidden pb-8 lg:pb-0 md:pt-14 dark:bg-dark_background"
             >
                 <div className="container mx-auto mt-4 lg:mt-14">
                     <div className="flex flex-col lg:flex-row justify-center">
@@ -48,7 +48,7 @@ export default function Contact() {
                                     Please click the button below to view my CV if you are thinking
                                     about hiring me.
                                 </h2>
-                                <div className="text-center">
+                                <div className="text-center pb-20">
                                     <a
                                         v-wave
                                         href="https://github.com/fatihes1/CV/blob/main/Fatih%20Es%20-%20Resume.pdf"

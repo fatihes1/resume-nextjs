@@ -3,7 +3,7 @@ import WelcomePicture from '../../public/assets/images/welcome.png'
 import Image from "next/image"
 const Header = () => {
     return (
-        <header className={'mt-20 '}>
+        <header className={'pt-20 h-screen dark:bg-dark_background overflow-x-hidden'} >
             <div className="flex lg:mx-auto flex-col lg:flex-row">
                 <div className="container mx-auto lg:calc-h-full-40">
                     <div className="flex flex-col lg:flex-row">

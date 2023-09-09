@@ -11,6 +11,9 @@ const quicksand = Quicksand({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Fatih Es',
   description: 'Fatih Es is a software engineer based in Ankara, Turkey.',
+  verification: {
+    google: "9L92jc9wNt1-pnXrEsAK3W3rbA66IsT1qlY3rG7x8MA"
+  }
 }
 
 export default function RootLayout({
